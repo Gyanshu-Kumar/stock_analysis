@@ -1,7 +1,6 @@
 const express = require('express');
 const { exec } = require('child_process');
 const bodyParser = require('body-parser');
-const path = require('path');
 
 const app = express();
 const pythonPath = '"C:\\Users\\GYANSHU KUMAR\\AppData\\Local\\Programs\\Python\\Python310\\python.exe"';
